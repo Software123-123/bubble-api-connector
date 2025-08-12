@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "routes": [
@@ -7,3 +8,14 @@
     }
   ]
 }
+=======
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
+>>>>>>> 5064cd4a8c3db8d845401175ea0079dc19f1b7c0
