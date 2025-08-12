@@ -42,8 +42,4 @@ app.post('/api/check-value', (req, res) => {
 });
 
 // Exportar la aplicación de Express para que Vercel la pueda usar
-<<<<<<< HEAD
 module.exports = app;
-=======
-module.exports = app;
->>>>>>> 1de878bd301bbc417527b4d9373dbaf71e892c09
