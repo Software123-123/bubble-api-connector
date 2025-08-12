@@ -7,6 +7,7 @@ app.use(bodyParser.json());
 
 // Endpoint de la API
 app.post('/api/check-value', (req, res) => {
+        console.log('Received body:', req.body); // 
     // Definir las palabras clave (ejemplo: 'Hola', 'Saludos')
     const keywords = ['hola', 'saludos', 'jeje']; // Todas en minúsculas para una comparación sin distinción de mayúsculas
 
