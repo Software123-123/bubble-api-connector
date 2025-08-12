@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3000;
 
 // Middleware para procesar JSON en las peticiones
 app.use(bodyParser.json());
@@ -42,7 +41,5 @@ app.post('/api/check-value', (req, res) => {
     });
 });
 
-// Iniciar el servidor
-app.listen(port, () => {
-    console.log(`API escuchando en http://localhost:${port}`);
-});
+// Exportar la aplicación de Express para que Vercel la pueda usar
+module.exports = app;
